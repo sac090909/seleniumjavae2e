@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Element30PageFb {
+public class ElementPageFb {
 
 	WebDriver driver;
 
@@ -24,7 +24,7 @@ public class Element30PageFb {
 	@FindBy(xpath="//input[@id='female']") WebElement femaleRadioBtn;
 	@FindBy(xpath="//input[@type='checkbox' and @class='form-check-input']") List<WebElement> checkBoxs;
 
-	public Element30PageFb(WebDriver driver) {
+	public ElementPageFb(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver,this);
 	}

@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-29T17:02:45 CDT" name="Default suite" finished-at="2026-04-29T17:02:54 CDT" duration-ms="8519">
+  <suite started-at="2026-04-30T01:06:45 CDT" name="Default suite" finished-at="2026-04-30T01:06:51 CDT" duration-ms="5473">
     <groups>
     </groups>
-    <test started-at="2026-04-29T17:02:45 CDT" name="Default test" finished-at="2026-04-29T17:02:54 CDT" duration-ms="8519">
+    <test started-at="2026-04-30T01:06:45 CDT" name="Default test" finished-at="2026-04-30T01:06:51 CDT" duration-ms="5473">
       <class name="seleniumjava.Element30Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumjava.Element30Test@639c2c1d]" started-at="2026-04-29T17:02:45 CDT" name="setup" finished-at="2026-04-29T17:02:48 CDT" duration-ms="2550" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumjava.Element30Test@639c2c1d]" started-at="2026-04-30T01:06:45 CDT" name="setup" finished-at="2026-04-30T01:06:48 CDT" duration-ms="3031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyButtonSelection()[pri:0, instance:seleniumjava.Element30Test@639c2c1d]" started-at="2026-04-29T17:02:48 CDT" name="verifyButtonSelection" finished-at="2026-04-29T17:02:54 CDT" duration-ms="5734" status="PASS">
+        <test-method signature="verifyButtonSelection()[pri:0, instance:seleniumjava.Element30Test@639c2c1d]" started-at="2026-04-30T01:06:48 CDT" name="verifyButtonSelection" finished-at="2026-04-30T01:06:49 CDT" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyButtonSelection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumjava.Element30Test@639c2c1d]" started-at="2026-04-29T17:02:54 CDT" name="tearDown" finished-at="2026-04-29T17:02:54 CDT" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumjava.Element30Test@639c2c1d]" started-at="2026-04-30T01:06:49 CDT" name="tearDown" finished-at="2026-04-30T01:06:49 CDT" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumjava.Element30Test@639c2c1d]" started-at="2026-04-30T01:06:49 CDT" name="setup" finished-at="2026-04-30T01:06:50 CDT" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyElements()[pri:0, instance:seleniumjava.Element30Test@639c2c1d]" started-at="2026-04-30T01:06:50 CDT" name="verifyElements" finished-at="2026-04-30T01:06:51 CDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumjava.Element30Test@639c2c1d]" started-at="2026-04-30T01:06:51 CDT" name="tearDown" finished-at="2026-04-30T01:06:51 CDT" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

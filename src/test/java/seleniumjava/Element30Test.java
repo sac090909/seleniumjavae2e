@@ -11,10 +11,8 @@ import org.testng.annotations.Test;
 public class Element30Test {
 	
 	WebDriver driver;
-	Element30PageFb elementPage;
 	
 	 @BeforeMethod()
-	 
 	 public void setup(){
 		
 	 driver= new ChromeDriver();
@@ -22,25 +20,23 @@ public class Element30Test {
 	 driver.get("https://testautomationpractice.blogspot.com/");
 	 System.out.println(driver.getTitle());
 	 
-	 
 	}
 	 
-	
-	//@Test
+	@Test
 	public void verifyElements() {
 		
-	elementPage = new Element30PageFb(driver);
-	elementPage.enterElementValues("Mr. Selenium", "selenium@gmail.com","223-223-2223");
+	ElementPageFb elementPage = new ElementPageFb(driver);
+	elementPage.enterElementValues("Mr. Selenium", "selenium@gmail.com","2232232223");
 		
 	}
 	
 	@Test()
 	public void verifyButtonSelection() throws InterruptedException {
 	
-	elementPage = new Element30PageFb(driver);
+	ElementPageFb elementPage = new ElementPageFb(driver);
 	elementPage.selectRadioButtonCheckBox();
 	
-	Thread.sleep(5000);
+	//Thread.sleep(5000);
 	
 	}
 	
@@ -51,5 +47,6 @@ public class Element30Test {
 			driver.quit();
 		}
 	}
+
 
 }
